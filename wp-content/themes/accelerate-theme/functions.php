@@ -63,6 +63,7 @@ function accelerate_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+
 add_action( 'widgets_init', 'accelerate_widgets_init' );
 
 // Defines custom markup for post comments
